@@ -1,7 +1,7 @@
 <template>
-  <div class="w-full px-4 md:px-8 py-2">
+  <div class="w-full px-4 md:pl-[45px] py-2">
     <div>
-      <h2 class="text-zinc-900 font-semibold text-2xl py-5">{{ title }}</h2>
+      <h2 class="text-white font-semibold text-2xl py-5">{{ title }}</h2>
     </div>
     <div class="poster_row flex gap-3 md:gap-4 overflow-x-auto">
       <img

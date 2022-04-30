@@ -1,7 +1,7 @@
 <template>
   <Banner />
 
-  <div class="bg-rose-50">
+  <div class="bg-black">
     <Row
       title="Netflix Originals"
       :url="request.fetchNetflixOriginals"

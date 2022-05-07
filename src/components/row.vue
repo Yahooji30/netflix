@@ -1,7 +1,7 @@
 <template>
-  <div class="w-full px-4 md:pl-[45px] py-2">
+  <div class="w-full  py-2">
     <div>
-      <h2 class="text-white font-semibold text-2xl py-5">{{ title }}</h2>
+      <h2 class="text-white font-semibold text-2xl md:pl-[45px] py-5">{{ title }}</h2>
     </div>
     <div class="poster_row flex gap-3 md:gap-4 overflow-x-auto">
       <img
@@ -14,7 +14,7 @@
           IMG.transformIMG
         "
         :alt="movie.title"
-        :class="[isLarge ? 'h-[250px] rounded' : 'h-[125px] rounded']"
+        :class="[isLarge ? 'h-[250px] rounded first:ml-[45px]' : 'h-[125px] rounded first:ml-[45px]']"
       />
     </div>
   </div>
